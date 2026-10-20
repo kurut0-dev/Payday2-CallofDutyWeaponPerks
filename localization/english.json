@@ -1,0 +1,51 @@
+{
+	"menu_l_global_value_codperks" : "",
+
+	"bm_menu_perk" : "Perk",
+	"bm_menu_perk_plural" : "Perks",
+
+	"bm_menu_perk_cod_sleight_of_hand" : "Sleight of Hand",
+	"bm_menu_perk_cod_sleight_of_hand_desc" : "Reload 25% faster.\n",
+
+	"bm_menu_perk_cod_fmj" : "FMJ",
+	"bm_menu_perk_cod_fmj_desc" : "Bullets penetrate enemy shields and deal 10% extra damage to armored enemies (Bulldozers, Shields).\n",
+
+	"bm_menu_perk_cod_full_ammo" : "Full Ammo",
+	"bm_menu_perk_cod_full_ammo_desc" : "Carry a larger reserve of ammo.\n",
+
+	"bm_menu_perk_cod_disable" : "Disable",
+	"bm_menu_perk_cod_disable_desc" : "Leg shots are much more likely to stagger enemies.\n",
+
+	"bm_menu_perk_cod_tough" : "Tough",
+	"bm_menu_perk_cod_tough_desc" : "Move 15% faster for 10 seconds after spawning in.\n",
+
+	"bm_menu_perk_cod_long_shot" : "Long Shot",
+	"bm_menu_perk_cod_long_shot_desc" : "Slightly improves accuracy at range.\n",
+
+	"bm_menu_perk_cod_melee_master" : "Melee Master",
+	"bm_menu_perk_cod_melee_master_desc" : "Melee kills and kills within 3 meters return 3 bullets to your magazine.\n",
+
+	"bm_menu_perk_cod_bullet_return" : "Bullet Return",
+	"bm_menu_perk_cod_bullet_return_desc" : "Kills have a 15% chance to refill your magazine.\n",
+
+	"bm_menu_perk_cod_fast_switch" : "Fast Switch",
+	"bm_menu_perk_cod_fast_switch_desc" : "Swap to this weapon 40% faster.\n",
+
+	"bm_menu_perk_cod_empty_reload" : "Empty Reload",
+	"bm_menu_perk_cod_empty_reload_desc" : "Reload 30% faster when the magazine is empty.\n",
+
+	"bm_menu_perk_cod_wild_hip_fire" : "Wild Hip Fire",
+	"bm_menu_perk_cod_wild_hip_fire_desc" : "Improves accuracy while moving.\n",
+
+	"bm_menu_perk_cod_double_kill" : "Double Kill",
+	"bm_menu_perk_cod_double_kill_desc" : "Two kills within 2 seconds refill your magazine.\n",
+
+	"bm_menu_perk_cod_fast_reload_kill" : "Fast Reload Kill",
+	"bm_menu_perk_cod_fast_reload_kill_desc" : "Damaging an enemy makes you reload 30% faster for 3 seconds.\n",
+
+	"bm_menu_perk_cod_speed_up_kill" : "Speed Up Kill",
+	"bm_menu_perk_cod_speed_up_kill_desc" : "Damaging an enemy gives you a 15% movement speed boost for 2 seconds.\n",
+
+	"bm_menu_perk_cod_slide_flak_jacket" : "Slide Flak Jacket",
+	"bm_menu_perk_cod_slide_flak_jacket_desc" : "Take 15% less damage while crouched.\n"
+}

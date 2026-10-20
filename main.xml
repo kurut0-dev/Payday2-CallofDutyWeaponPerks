@@ -1,0 +1,34 @@
+<mod name="Call of Duty Weapon Perks" color="Color(0.35, 0.6, 0.25)">
+	<Localization directory="localization" default="english.json"/>
+
+	<GlobalValue id="codperks" color="Color(1, 1, 1)" overwrite="true"/>
+
+	<AddFiles directory="assets">
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_sleight_of_hand"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_fmj"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_full_ammo"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_disable"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_tough"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_long_shot"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_melee_master"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_bullet_return"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_fast_switch"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_empty_reload"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_wild_hip_fire"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_double_kill"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_fast_reload_kill"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_speed_up_kill"/>
+		<texture path="guis/dlcs/codperks/textures/pd2/blackmarket/icons/mods/wpn_fps_upg_perk_cod_slide_flak_jacket"/>
+	</AddFiles>
+
+	<Hooks directory="hooks">
+		<hook file="copdamage.lua"              source_file="lib/units/enemies/cop/copdamage"/>
+		<hook file="newraycastweaponbase.lua"   source_file="lib/units/weapons/newraycastweaponbase"/>
+		<hook file="playerdamage.lua"           source_file="lib/units/beings/player/playerdamage"/>
+		<hook file="playermanager.lua"          source_file="lib/managers/playermanager"/>
+		<hook file="playerstandard.lua"         source_file="lib/units/beings/player/states/playerstandard"/>
+		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
+		<hook file="lateperks.lua"              source_file="lib/tweak_data/tweakdata"/>
+		<hook file="blackmarketmanager.lua"     source_file="lib/managers/blackmarketmanager"/>
+	</Hooks>
+</mod>
